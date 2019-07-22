@@ -1,0 +1,62 @@
+<style>
+.pointer {cursor: pointer;}
+.no-offer-bg 
+{	
+	background-color: #F6F6F6 !important;
+}
+.no-offers-av {
+	color: #000000;
+	font-family: "Neue Haas Grotesk Display Std";
+	font-size: 50px;
+	line-height: 48px;
+}
+.available-offers-box-noOffer {			
+	margin:2px auto;	
+	background-size: cover;
+	background-color: #F6F6F6;
+}
+
+</style>
+<div class="uirefresh-contentArea" id="uiRefreshArea_{tabId}">
+ <div class="component-background-type2 available-offers-box" id="uiRefreshbgArea_{tabId}">  	
+     <table role="presentation" class="StandardForm marginTop" width="100%">
+     	  <tr>
+     	  	<td>
+     	  	   <div class="noWrap bold component-heading available-offers" id="availableOffer_{tabId}">Available Offers</div>
+     	  	   <div style="display: block;float:right;"> <a href="#" role="button" title="Help Menu"><img id="offerAndNBAOffer_HelpMenu{tabId}" data-argus-monitor="{argusId}HelpMenu"  src="" alt="Help Menu" class="helpIcon"></a> </div>
+     	  	</td>			     	  	
+     	  </tr>
+    </table>
+    <div id="offerAndNBAID_{tabId}">
+		<div id="offersListDataContainer{tabId}" style="min-height: 215px;max-height: 215px;">
+    	</div>    	    
+    </div>
+	<div id="offerCompForJAWS_{tabId}">
+	    <table id ="jawsTable_{tabId}" >
+	    </table>s
+	</div>
+	<div id="noOffers_{tabId}" style="min-height: 215px;max-height: 215px;">
+		<div class="no-offer-bg" style="margin:10px">
+			<label id="lblno_ofers_{tabId}" class="no-offers-av" name="lblno_ofers_{tabId}">No loyalty offers available at this time.</label>
+    	</div>		
+	</div>	
+	<div class="offer-list-container">
+			<table width="100%">	
+				<tr align="right">
+					<td>	  			
+	    				<div class="offer-actions">
+	    					<img class="pointer" width="55px" height="16px" id="offerAndNBA_continueBtn_img_{tabId}" data-argus-monitor="{argusId}offerAndNBA" alt="Expand" />
+	    					</div>		   					
+						</div>
+					</td>
+	  			</tr>			
+				<tr align="center">
+					<td>
+	  					<div class="offer-list-selectors" id="offersSelectorList{tabId}">	  	     
+	  					</div>
+	  				</td>
+	  			</tr>
+			</table>		   	  	
+	</div>                
+  </div> 
+</div>  
